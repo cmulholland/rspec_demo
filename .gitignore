@@ -1,0 +1,16 @@
+screenshots
+screenshots_
+screenshots.png
+screenshots2.png
+.env
+logs
+log
+.bundle
+tmp
+vendor
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+*.png
+sftp-config.json
+*.vscode

@@ -1,0 +1,10 @@
+sample command line tests:
+
+
+TEST_DRIVER=selenium bundle exec rspec -r ./spec/support/dev.rb spec/dummy_spec.rb
+
+bundle exec rspec -r ./spec/support/qa.rb spec/header_elements_spec.rb
+
+
+
+bundle exec rspec -r ./spec/support/prod.rb spec/header_elements_spec.rb
