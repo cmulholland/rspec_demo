@@ -1,5 +1,5 @@
 require "rake"
-require "rspec/core/rake_task"
+require "rspec/rake_task"
 require "yaml"
 
 # My tasks ----------------
