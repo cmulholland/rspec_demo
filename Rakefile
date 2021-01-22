@@ -1,5 +1,9 @@
 require "rake"
-require "rspec/rake_task"
+begin
+  require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:spec)
+rescue LoadError
+end
 require "yaml"
 
 # My tasks ----------------
