@@ -19,3 +19,7 @@ gem 'webdrivers', '~> 3.7', '>= 3.7.2'
 gem 'capybara-selenium', '~> 0.0.6'
 
 gem 'rest-client' #needed for crossbrowsertesting.com api
+
+#added 1/22/21 when trying to get github actions to work
+gem 'rake'
+gem 'rspec'
