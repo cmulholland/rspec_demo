@@ -21,11 +21,11 @@ jobs:
       matrix:
         ruby-version: ['2.5.5']
 
-services:
-hub:
-image: selenium/hub
-chrome:
-image: selenium/standalong-chrome
+  services:
+    hub:
+      image: selenium/hub
+    chrome:
+      image: selenium/standalone-chrome
 
     steps:
     - uses: actions/checkout@v2
