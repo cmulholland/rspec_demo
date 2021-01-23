@@ -17,7 +17,10 @@ jobs:
       matrix:
         ruby-version: ["2.5.5"]
 
-    services:
+    ENV:
+      TEST_DRIVER: headless_chrome
+    
+        services:
   #   hub:
   #     image: selenium/hub
       chrome:
