@@ -17,7 +17,7 @@ jobs:
       matrix:
         ruby-version: ["2.5.5"]
 
-    ENV:
+    env:
       TEST_DRIVER: headless_chrome
     
     services:
