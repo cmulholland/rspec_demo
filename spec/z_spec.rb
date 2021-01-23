@@ -19,7 +19,7 @@ describe "Just visits" do
   end
   it "visits Google and expect to see the word Gmail" do
     visit "https://www.google.com"
-    expect(page).to have_content("GmailX")
+    expect(page).to have_content("Gmail")
   end
   
 end
