@@ -20,7 +20,7 @@ jobs:
     ENV:
       TEST_DRIVER: headless_chrome
     
-        services:
+    services:
   #   hub:
   #     image: selenium/hub
       chrome:
